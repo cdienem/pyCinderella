@@ -8,7 +8,7 @@ pyCinderella is a Python wrapper to run Cinderella: https://github.com/MPI-Dortm
    - numpy 
 
 ## Installation
-Just download pyCinderella.py and import it as a module in yout Python program (aslo see Usage).
+Just download pyCinderella.py and import it as a module in your Python program (also see Usage).
 
 ## Features
 pyCinderella gives acess to the following features of Cinderella (and beyond):
@@ -19,6 +19,8 @@ pyCinderella gives acess to the following features of Cinderella (and beyond):
 
 ## Usage
 `
+from pyCinderella import Cinderella
+
 
 
 
