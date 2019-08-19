@@ -18,10 +18,4 @@ pyCinderella gives acess to the following features of Cinderella (and beyond):
 - Training of new models or existing calculated weights
 
 ## Usage
-`
-from pyCinderella import Cinderella
-
-
-
-
-`
+`from pyCinderella import Cinderella` will make the class `Cinderella` available.
