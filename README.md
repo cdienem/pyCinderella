@@ -47,6 +47,7 @@ cinderella.threshold = 0.8
 ```
 Set the selection threshold to 0.8. Default is 0.7.
 ### Predict good classes
+```Python
 classes = cinderella.predict("/home/data/2D_training_data/cryosparc_P7_J37_020_class_averages.mrc", "model.h5")
 
 # Print a list of good class indecies
@@ -55,7 +56,7 @@ print(classes)
 
 classes = cinderella.predict("/home/data/2D_training_data/cryosparc_P7_J37_020_class_averages.mrc", "model.h5", output="sorted_classes")
 # This will leave good/bad averages as mrcs stacks in the location specified by output
-
+```
 ### Train a new model
 cinderella.train("good", "bad", "new_model.h5")
 
