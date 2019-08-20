@@ -47,6 +47,14 @@ cinderella.threshold = 0.8
 ```
 Set the selection threshold to 0.8. Default is 0.7.
 ### Predict good classes
+Use `cinderella.predict( class_averages, model [, output])`
+
+- `class_averages`: path to an MRC file containing the class averages
+- `model`: path to .h5 model file
+- `outut` (optional): folder to write output in. If not provided, no output will be created
+
+return value: list of good class indecies.
+
 ```Python
 classes = cinderella.predict("/home/data/2D_training_data/cryosparc_P7_J37_020_class_averages.mrc", "model.h5")
 
