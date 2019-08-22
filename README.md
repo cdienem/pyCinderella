@@ -51,7 +51,7 @@ Use `cinderella.predict( class_averages, model [, output])`
 
 - `class_averages`: path to an MRC file containing the class averages
 - `model`: path to .h5 model file
-- `outut` (optional): folder to write output in. If not provided, no output will be created
+- `outut`: folder to write output in. If not provided, no output will be created
 
 return value: list of good class indecies.
 
