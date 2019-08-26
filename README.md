@@ -70,9 +70,6 @@ print(classes)
 classes = cinderella.predict("/home/data/2D_training_data/cryosparc_P7_J37_020_class_averages.mrc", "model.h5", output="sorted_classes")
 ```
 ### Train a new model
-cinderella.train("good", "bad", "new_model.h5")
-
-
 Use `cinderella.train( folder_good, folder_bad, model [, weights])`
 
 - `folder_good`: path to a folder containing positive exapmles as mrcs stacks
@@ -82,11 +79,15 @@ Use `cinderella.train( folder_good, folder_bad, model [, weights])`
 
 `return` value: nothing (yet).
 
-### Reads JSON config file
-cinderella.read_config("config.json")
+Example:
 
-### Writes configuration to JSON config file
-cinderella.write_config("config.json")
+
+### Read JSON config file
+
+`cinderella.read_config("config.json")`
+
+### Write configuration to JSON config file
+`cinderella.write_config("config.json")`
 
 
 
