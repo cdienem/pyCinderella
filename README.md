@@ -11,7 +11,7 @@ pyCinderella is a Python wrapper to run Cinderella: https://github.com/MPI-Dortm
 Just download pyCinderella.py and import it as a module in your Python program (also see Usage).
 
 ## Features
-pyCinderella gives acess to the following features of Cinderella (and beyond):
+pyCinderella gives access to the following features of Cinderella (and beyond):
 - Prediction of good/bad 2D class averages
 - Return/output of good class indecies as python list for further usage
 - Automatic cleanup of Cinderella outputs if they are not needed (configs and class images)
